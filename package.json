@@ -1,0 +1,12 @@
+{
+    "name": "sitegen-main",
+    "version": "0.1.0",
+    "dependencies": {
+        "lodash": "^4.17.5"
+    },
+    "scripts": {
+        "build:dev": "echo 'build done'",
+        "coverage": "echo 'coverage report ready'",
+        "test": "echo 'test done'"
+    }
+}
