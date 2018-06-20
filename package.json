@@ -8,7 +8,7 @@
     "scripts": {
         "build:dev": "echo 'build done'",
         "coverage": "jest coverage",
-        "test": "jest --json --output-file=passed-tests.json"
+        "test": "jest --ci --testResultsProcessor=\"jest-junit\""
     },
     "devDependencies": {
         "babel-jest": "*",
