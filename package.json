@@ -7,7 +7,7 @@
     },
     "scripts": {
         "build:dev": "echo 'build done'",
-        "coverage": "jest coverage",
+        "coverage": "jest --coverage",
         "test": "jest --ci --testResultsProcessor=\"jest-junit\""
     },
     "devDependencies": {
