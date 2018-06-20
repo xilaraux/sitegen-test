@@ -2,11 +2,19 @@
     "name": "sitegen-main",
     "version": "0.1.0",
     "dependencies": {
-        "lodash": "^4.17.5"
+        "react": "*",
+        "react-dom": "*"
     },
     "scripts": {
         "build:dev": "echo 'build done'",
-        "coverage": "echo 'coverage report ready'",
-        "test": "echo 'test done'"
+        "coverage": "jest coverage",
+        "test": "jest --json --output-file=passed-tests.json"
+    },
+    "devDependencies": {
+        "babel-jest": "*",
+        "babel-preset-env": "*",
+        "babel-preset-react": "*",
+        "jest": "*",
+        "jest-junit": "^5.1.0"
     }
 }
